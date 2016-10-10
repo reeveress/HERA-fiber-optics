@@ -1,0 +1,427 @@
+Script started on Tue 30 Jun 2015 02:59:30 PM PDT
+]0;zuhraa470@simech1: ~/casper/snap/test_firmware/tge_testzuhraa470@simech1:~/casper/snap/test_firmware/tge_test$ exitpython sfp_test.py -b sfp2x_test.bof -n 2 rpirachel -P 1000 -T 1100
+Connecting to server rpirachel...  ok
+
+------------------------
+Programming FPGA... ok
+---------------------------
+Disabling output... done
+---------------------------
+Configuring core gbe0
+Configuring core gbe1
+---------------------------
+Setting-up packet source... done
+Enable corner turn? True
+Setting-up destination addresses... done
+Resetting cores and counters... done
+Enabling output... done
+fpga clock rate: 100.00
+Packet rate: 90909 packets/sec
+Bit rate: 5824000000 bits/sec (5.82Gb/s)
+Bit rate (with overhead): 5863272727 bits/sec (5.86Gb/s)
+After 0 seconds: Core 0, sent 639, received 956, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 0 seconds: Core 1, sent 2873, received 3193, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 1 seconds: Core 0, sent 96080, received 96382, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 1 seconds: Core 1, sent 98317, received 98637, errors 0, bad crcs 0, tx-rx -1, (txof=0, rxof=0)
+###############################
+After 2 seconds: Core 0, sent 191551, received 191862, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 2 seconds: Core 1, sent 193794, received 194108, errors 0, bad crcs 0, tx-rx -1, (txof=0, rxof=0)
+###############################
+After 3 seconds: Core 0, sent 287065, received 287371, errors 0, bad crcs 0, tx-rx -1, (txof=0, rxof=0)
+After 3 seconds: Core 1, sent 289277, received 289591, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 4 seconds: Core 0, sent 382531, received 382841, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 4 seconds: Core 1, sent 384806, received 385137, errors 0, bad crcs 0, tx-rx -1, (txof=0, rxof=0)
+###############################
+After 5 seconds: Core 0, sent 477995, received 478309, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 5 seconds: Core 1, sent 480262, received 480629, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 6 seconds: Core 0, sent 573545, received 573868, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 6 seconds: Core 1, sent 575809, received 576138, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 7 seconds: Core 0, sent 669067, received 669391, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 7 seconds: Core 1, sent 671360, received 671680, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 8 seconds: Core 0, sent 764646, received 764973, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 8 seconds: Core 1, sent 766958, received 767276, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 9 seconds: Core 0, sent 860221, received 860536, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 9 seconds: Core 1, sent 862536, received 862857, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 10 seconds: Core 0, sent 955841, received 956166, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 10 seconds: Core 1, sent 958144, received 958472, errors 0, bad crcs 0, tx-rx -1, (txof=0, rxof=0)
+###############################
+After 11 seconds: Core 0, sent 1051465, received 1051779, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 11 seconds: Core 1, sent 1053709, received 1054031, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 12 seconds: Core 0, sent 1146997, received 1147305, errors 0, bad crcs 0, tx-rx -1, (txof=0, rxof=0)
+After 12 seconds: Core 1, sent 1149272, received 1149590, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 13 seconds: Core 0, sent 1242461, received 1242768, errors 0, bad crcs 0, tx-rx -1, (txof=0, rxof=0)
+After 13 seconds: Core 1, sent 1244716, received 1245039, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 14 seconds: Core 0, sent 1337979, received 1338288, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 14 seconds: Core 1, sent 1340210, received 1340548, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 15 seconds: Core 0, sent 1433479, received 1433796, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 15 seconds: Core 1, sent 1435730, received 1436055, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 16 seconds: Core 0, sent 1528962, received 1529270, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 16 seconds: Core 1, sent 1531223, received 1531553, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 17 seconds: Core 0, sent 1624491, received 1624803, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 17 seconds: Core 1, sent 1626723, received 1627037, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 18 seconds: Core 0, sent 1719929, received 1720252, errors 0, bad crcs 0, tx-rx -1, (txof=0, rxof=0)
+After 18 seconds: Core 1, sent 1722191, received 1722511, errors 0, bad crcs 0, tx-rx -1, (txof=0, rxof=0)
+###############################
+After 19 seconds: Core 0, sent 1815441, received 1815755, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 20 seconds: Core 1, sent 1817702, received 1818016, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 21 seconds: Core 0, sent 1910870, received 1911187, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 21 seconds: Core 1, sent 1913103, received 1913421, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 22 seconds: Core 0, sent 2006317, received 2006622, errors 0, bad crcs 0, tx-rx -1, (txof=0, rxof=0)
+After 22 seconds: Core 1, sent 2008529, received 2008849, errors 0, bad crcs 0, tx-rx -1, (txof=0, rxof=0)
+###############################
+After 23 seconds: Core 0, sent 2101729, received 2102036, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 23 seconds: Core 1, sent 2103946, received 2104276, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 24 seconds: Core 0, sent 2197211, received 2197516, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 24 seconds: Core 1, sent 2199450, received 2199769, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 25 seconds: Core 0, sent 2292644, received 2292943, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 25 seconds: Core 1, sent 2294872, received 2295185, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 26 seconds: Core 0, sent 2388167, received 2388474, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 26 seconds: Core 1, sent 2390406, received 2390739, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 27 seconds: Core 0, sent 2483693, received 2484007, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 27 seconds: Core 1, sent 2485979, received 2486300, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 28 seconds: Core 0, sent 2579186, received 2579501, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+After 28 seconds: Core 1, sent 2581447, received 2581759, errors 0, bad crcs 0, tx-rx -1, (txof=0, rxof=0)
+###############################
+After 29 seconds: Core 0, sent 2674718, received 2675031, errors 0, bad crcs 0, tx-rx -1, (txof=0, rxof=0)
+After 29 seconds: Core 1, sent 2676974, received 2677293, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 30 seconds: Core 0, sent 2770207, received 2770519, errors 0, bad crcs 65, tx-rx 293, (txof=0, rxof=0)
+After 30 seconds: Core 1, sent 2772458, received 2772771, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 31 seconds: Core 0, sent 2865652, received 2864066, errors 0, bad crcs 61064, tx-rx 2014, (txof=0, rxof=0)
+After 31 seconds: Core 1, sent 2867880, received 2868194, errors 0, bad crcs 0, tx-rx 0, (txof=0, rxof=0)
+###############################
+After 32 seconds: Core 0, sent 2961093, received 2925721, errors 0, bad crcs 121536, tx-rx 37302, (txof=0, rxof=0)
+After 32 seconds: Core 1, sent 2963350, received 2945976, errors 0, bad crcs 376, tx-rx 19309, (txof=0, rxof=0)
+###############################
+After 33 seconds: Core 0, sent 3056546, received 2925721, errors 0, bad crcs 121536, tx-rx 132736, (txof=0, rxof=0)
+After 33 seconds: Core 1, sent 3058779, received 2945976, errors 0, bad crcs 376, tx-rx 114710, (txof=0, rxof=0)
+###############################
+After 34 seconds: Core 0, sent 3151963, received 2925721, errors 0, bad crcs 121536, tx-rx 228157, (txof=0, rxof=0)
+After 34 seconds: Core 1, sent 3154202, received 2945976, errors 0, bad crcs 376, tx-rx 210124, (txof=0, rxof=0)
+###############################
+After 35 seconds: Core 0, sent 3247393, received 2925721, errors 0, bad crcs 121536, tx-rx 323587, (txof=0, rxof=0)
+After 35 seconds: Core 1, sent 3249632, received 2945976, errors 0, bad crcs 376, tx-rx 305581, (txof=0, rxof=0)
+###############################
+After 36 seconds: Core 0, sent 3342826, received 2925721, errors 0, bad crcs 121536, tx-rx 419023, (txof=0, rxof=0)
+After 36 seconds: Core 1, sent 3345070, received 2945976, errors 0, bad crcs 376, tx-rx 401022, (txof=0, rxof=0)
+###############################
+After 37 seconds: Core 0, sent 3438313, received 2925721, errors 0, bad crcs 121536, tx-rx 514499, (txof=0, rxof=0)
+After 37 seconds: Core 1, sent 3440546, received 2945976, errors 0, bad crcs 376, tx-rx 496494, (txof=0, rxof=0)
+###############################
+After 38 seconds: Core 0, sent 3533818, received 2925721, errors 0, bad crcs 121536, tx-rx 610007, (txof=0, rxof=0)
+After 38 seconds: Core 1, sent 3536054, received 2945976, errors 0, bad crcs 376, tx-rx 591985, (txof=0, rxof=0)
+###############################
+After 39 seconds: Core 0, sent 3629304, received 2925721, errors 0, bad crcs 121536, tx-rx 705485, (txof=0, rxof=0)
+After 39 seconds: Core 1, sent 3631530, received 2945976, errors 0, bad crcs 376, tx-rx 687462, (txof=0, rxof=0)
+###############################
+After 40 seconds: Core 0, sent 3724739, received 2925721, errors 0, bad crcs 121536, tx-rx 800908, (txof=0, rxof=0)
+After 41 seconds: Core 1, sent 3726959, received 2945976, errors 0, bad crcs 376, tx-rx 782882, (txof=0, rxof=0)
+###############################
+After 42 seconds: Core 0, sent 3820181, received 2925721, errors 0, bad crcs 121536, tx-rx 896399, (txof=0, rxof=0)
+After 42 seconds: Core 1, sent 3822443, received 2945976, errors 0, bad crcs 376, tx-rx 878392, (txof=0, rxof=0)
+###############################
+After 43 seconds: Core 0, sent 3915664, received 2925721, errors 0, bad crcs 121536, tx-rx 991874, (txof=0, rxof=0)
+After 43 seconds: Core 1, sent 3917911, received 2945976, errors 0, bad crcs 376, tx-rx 973864, (txof=0, rxof=0)
+###############################
+After 44 seconds: Core 0, sent 4011147, received 2925721, errors 0, bad crcs 121536, tx-rx 1087343, (txof=0, rxof=0)
+After 44 seconds: Core 1, sent 4013393, received 2945976, errors 0, bad crcs 376, tx-rx 1069310, (txof=0, rxof=0)
+###############################
+After 45 seconds: Core 0, sent 4106603, received 2925721, errors 0, bad crcs 121536, tx-rx 1182770, (txof=0, rxof=0)
+After 45 seconds: Core 1, sent 4108813, received 2945976, errors 0, bad crcs 376, tx-rx 1164760, (txof=0, rxof=0)
+###############################
+After 46 seconds: Core 0, sent 4202021, received 2925721, errors 0, bad crcs 121536, tx-rx 1278258, (txof=0, rxof=0)
+After 46 seconds: Core 1, sent 4204310, received 2945976, errors 0, bad crcs 376, tx-rx 1260167, (txof=0, rxof=0)
+###############################
+After 47 seconds: Core 0, sent 4297499, received 2931274, errors 0, bad crcs 121536, tx-rx 1366535, (txof=0, rxof=0)
+After 47 seconds: Core 1, sent 4299729, received 2953975, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 48 seconds: Core 0, sent 4393151, received 3026932, errors 0, bad crcs 121537, tx-rx 1366535, (txof=0, rxof=0)
+After 48 seconds: Core 1, sent 4395426, received 3049686, errors 0, bad crcs 376, tx-rx 1346070, (txof=0, rxof=0)
+###############################
+After 49 seconds: Core 0, sent 4488711, received 3122482, errors 0, bad crcs 121539, tx-rx 1366535, (txof=0, rxof=0)
+After 49 seconds: Core 1, sent 4490953, received 3145205, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 50 seconds: Core 0, sent 4584156, received 3217938, errors 0, bad crcs 121540, tx-rx 1366535, (txof=0, rxof=0)
+After 50 seconds: Core 1, sent 4586419, received 3240674, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 51 seconds: Core 0, sent 4679662, received 3313429, errors 0, bad crcs 121551, tx-rx 1366535, (txof=0, rxof=0)
+After 51 seconds: Core 1, sent 4681930, received 3336174, errors 0, bad crcs 376, tx-rx 1346070, (txof=0, rxof=0)
+###############################
+After 52 seconds: Core 0, sent 4775171, received 3408953, errors 0, bad crcs 121570, tx-rx 1366535, (txof=0, rxof=0)
+After 52 seconds: Core 1, sent 4777582, received 3431789, errors 0, bad crcs 376, tx-rx 1346070, (txof=0, rxof=0)
+###############################
+After 53 seconds: Core 0, sent 4870736, received 3504516, errors 0, bad crcs 121576, tx-rx 1366534, (txof=0, rxof=0)
+After 53 seconds: Core 1, sent 4873020, received 3527282, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 54 seconds: Core 0, sent 4966260, received 3600044, errors 0, bad crcs 121580, tx-rx 1366535, (txof=0, rxof=0)
+After 54 seconds: Core 1, sent 4968516, received 3622769, errors 0, bad crcs 376, tx-rx 1346070, (txof=0, rxof=0)
+###############################
+After 55 seconds: Core 0, sent 5061771, received 3695544, errors 0, bad crcs 121581, tx-rx 1366535, (txof=0, rxof=0)
+After 55 seconds: Core 1, sent 5063994, received 3718241, errors 0, bad crcs 376, tx-rx 1346070, (txof=0, rxof=0)
+###############################
+After 56 seconds: Core 0, sent 5157163, received 3790946, errors 0, bad crcs 121582, tx-rx 1366535, (txof=0, rxof=0)
+After 56 seconds: Core 1, sent 5159439, received 3813687, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 57 seconds: Core 0, sent 5252730, received 3886513, errors 0, bad crcs 121599, tx-rx 1366535, (txof=0, rxof=0)
+After 57 seconds: Core 1, sent 5255006, received 3909263, errors 0, bad crcs 376, tx-rx 1346070, (txof=0, rxof=0)
+###############################
+After 58 seconds: Core 0, sent 5348308, received 3982069, errors 0, bad crcs 121608, tx-rx 1366535, (txof=0, rxof=0)
+After 58 seconds: Core 1, sent 5350504, received 4004745, errors 0, bad crcs 376, tx-rx 1346070, (txof=0, rxof=0)
+###############################
+After 59 seconds: Core 0, sent 5443733, received 4077531, errors 0, bad crcs 121609, tx-rx 1366535, (txof=0, rxof=0)
+After 59 seconds: Core 1, sent 5446014, received 4100259, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 60 seconds: Core 0, sent 5539296, received 4173079, errors 0, bad crcs 121616, tx-rx 1366535, (txof=0, rxof=0)
+After 60 seconds: Core 1, sent 5541556, received 4195800, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 62 seconds: Core 0, sent 5634829, received 4268604, errors 0, bad crcs 121617, tx-rx 1366534, (txof=0, rxof=0)
+After 62 seconds: Core 1, sent 5637101, received 4291348, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 63 seconds: Core 0, sent 5730363, received 4364149, errors 0, bad crcs 121617, tx-rx 1366535, (txof=0, rxof=0)
+After 63 seconds: Core 1, sent 5732603, received 4386850, errors 0, bad crcs 376, tx-rx 1346070, (txof=0, rxof=0)
+###############################
+After 64 seconds: Core 0, sent 5825888, received 4459673, errors 0, bad crcs 121617, tx-rx 1366534, (txof=0, rxof=0)
+After 64 seconds: Core 1, sent 5828145, received 4482407, errors 0, bad crcs 376, tx-rx 1346070, (txof=0, rxof=0)
+###############################
+After 65 seconds: Core 0, sent 5921479, received 4555253, errors 0, bad crcs 121617, tx-rx 1366535, (txof=0, rxof=0)
+After 65 seconds: Core 1, sent 5923750, received 4578006, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 66 seconds: Core 0, sent 6017050, received 4650843, errors 0, bad crcs 121617, tx-rx 1366535, (txof=0, rxof=0)
+After 66 seconds: Core 1, sent 6019341, received 4673613, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 67 seconds: Core 0, sent 6112665, received 4746439, errors 0, bad crcs 121617, tx-rx 1366534, (txof=0, rxof=0)
+After 67 seconds: Core 1, sent 6114946, received 4769187, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 68 seconds: Core 0, sent 6208178, received 4841959, errors 0, bad crcs 121617, tx-rx 1366535, (txof=0, rxof=0)
+After 68 seconds: Core 1, sent 6210474, received 4864734, errors 0, bad crcs 376, tx-rx 1346070, (txof=0, rxof=0)
+###############################
+After 69 seconds: Core 0, sent 6303771, received 4937558, errors 0, bad crcs 121617, tx-rx 1366535, (txof=0, rxof=0)
+After 69 seconds: Core 1, sent 6306051, received 4960305, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 70 seconds: Core 0, sent 6399298, received 5033070, errors 0, bad crcs 121617, tx-rx 1366534, (txof=0, rxof=0)
+After 70 seconds: Core 1, sent 6401550, received 5055804, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 71 seconds: Core 0, sent 6494836, received 5128611, errors 0, bad crcs 121617, tx-rx 1366535, (txof=0, rxof=0)
+After 71 seconds: Core 1, sent 6497101, received 5151358, errors 0, bad crcs 376, tx-rx 1346070, (txof=0, rxof=0)
+###############################
+After 72 seconds: Core 0, sent 6590338, received 5224130, errors 0, bad crcs 121617, tx-rx 1366535, (txof=0, rxof=0)
+After 72 seconds: Core 1, sent 6592597, received 5246848, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 73 seconds: Core 0, sent 6685867, received 5319634, errors 0, bad crcs 121617, tx-rx 1366535, (txof=0, rxof=0)
+After 73 seconds: Core 1, sent 6688082, received 5342332, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 74 seconds: Core 0, sent 6781345, received 5415119, errors 0, bad crcs 121617, tx-rx 1366535, (txof=0, rxof=0)
+After 74 seconds: Core 1, sent 6783606, received 5437858, errors 0, bad crcs 376, tx-rx 1346071, (txof=0, rxof=0)
+###############################
+After 75 seconds: Core 0, sent 6876799, received 5510570, errors 0, bad crcs 121627, tx-rx 1366537, (txof=0, rxof=0)
+After 75 seconds: Core 1, sent 6879056, received 5533315, errors 0, bad crcs 376, tx-rx 1346070, (txof=0, rxof=0)
+###############################
+After 76 seconds: Core 0, sent 6972248, received 5539795, errors 0, bad crcs 122057, tx-rx 1434402, (txof=0, rxof=0)
+After 76 seconds: Core 1, sent 6974525, received 5561211, errors 0, bad crcs 671, tx-rx 1415202, (txof=0, rxof=0)
+###############################
+After 77 seconds: Core 0, sent 7067726, received 5539795, errors 0, bad crcs 122057, tx-rx 1529871, (txof=0, rxof=0)
+After 77 seconds: Core 1, sent 7069981, received 5561211, errors 0, bad crcs 671, tx-rx 1510645, (txof=0, rxof=0)
+###############################
+After 78 seconds: Core 0, sent 7163129, received 5539795, errors 0, bad crcs 122057, tx-rx 1625277, (txof=0, rxof=0)
+After 78 seconds: Core 1, sent 7165398, received 5561211, errors 0, bad crcs 671, tx-rx 1606171, (txof=0, rxof=0)
+###############################
+After 79 seconds: Core 0, sent 7258734, received 5539795, errors 0, bad crcs 122057, tx-rx 1720867, (txof=0, rxof=0)
+After 79 seconds: Core 1, sent 7261009, received 5561211, errors 0, bad crcs 671, tx-rx 1701760, (txof=0, rxof=0)
+###############################
+After 80 seconds: Core 0, sent 7354321, received 5539795, errors 0, bad crcs 122057, tx-rx 1816459, (txof=0, rxof=0)
+After 80 seconds: Core 1, sent 7356567, received 5561211, errors 0, bad crcs 671, tx-rx 1797254, (txof=0, rxof=0)
+###############################
+After 81 seconds: Core 0, sent 7449752, received 5539795, errors 0, bad crcs 122057, tx-rx 1911859, (txof=0, rxof=0)
+After 81 seconds: Core 1, sent 7451968, received 5561211, errors 0, bad crcs 671, tx-rx 1892658, (txof=0, rxof=0)
+###############################
+After 83 seconds: Core 0, sent 7545136, received 5539795, errors 0, bad crcs 122057, tx-rx 2007223, (txof=0, rxof=0)
+After 83 seconds: Core 1, sent 7547330, received 5561211, errors 0, bad crcs 671, tx-rx 1988030, (txof=0, rxof=0)
+###############################
+After 84 seconds: Core 0, sent 7640579, received 5539795, errors 0, bad crcs 122057, tx-rx 2102713, (txof=0, rxof=0)
+After 84 seconds: Core 1, sent 7642833, received 5561211, errors 0, bad crcs 671, tx-rx 2083559, (txof=0, rxof=0)
+###############################
+After 85 seconds: Core 0, sent 7736100, received 5539795, errors 0, bad crcs 122057, tx-rx 2198239, (txof=0, rxof=0)
+After 85 seconds: Core 1, sent 7738355, received 5561211, errors 0, bad crcs 671, tx-rx 2179076, (txof=0, rxof=0)
+###############################
+After 86 seconds: Core 0, sent 7831634, received 5562850, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 86 seconds: Core 1, sent 7833903, received 5615281, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 87 seconds: Core 0, sent 7927184, received 5658388, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 87 seconds: Core 1, sent 7929441, received 5710813, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 88 seconds: Core 0, sent 8022689, received 5753900, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 88 seconds: Core 1, sent 8024931, received 5806313, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 89 seconds: Core 0, sent 8118202, received 5849420, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 89 seconds: Core 1, sent 8120455, received 5901832, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 90 seconds: Core 0, sent 8213747, received 5944961, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 90 seconds: Core 1, sent 8216028, received 5997392, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 91 seconds: Core 0, sent 8309220, received 6040426, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 91 seconds: Core 1, sent 8311494, received 6092861, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 92 seconds: Core 0, sent 8404750, received 6135964, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 92 seconds: Core 1, sent 8406986, received 6188360, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+After 93 seconds: Core 0, sent 8500247, received 6231600, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 93 seconds: Core 1, sent 8502869, received 6284237, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 94 seconds: Core 0, sent 8596064, received 6327284, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 94 seconds: Core 1, sent 8598273, received 6379641, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+After 95 seconds: Core 0, sent 8691521, received 6422734, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 95 seconds: Core 1, sent 8693739, received 6475106, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 96 seconds: Core 0, sent 8787006, received 6518225, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 96 seconds: Core 1, sent 8789254, received 6570630, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 97 seconds: Core 0, sent 8882459, received 6613678, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 97 seconds: Core 1, sent 8884699, received 6666071, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 98 seconds: Core 0, sent 8977895, received 6709121, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 98 seconds: Core 1, sent 8980162, received 6761531, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 99 seconds: Core 0, sent 9073435, received 6804653, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 99 seconds: Core 1, sent 9075686, received 6857073, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 100 seconds: Core 0, sent 9168909, received 6900126, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 100 seconds: Core 1, sent 9171179, received 6952553, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+After 101 seconds: Core 0, sent 9264420, received 6995625, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 101 seconds: Core 1, sent 9266663, received 7048044, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 102 seconds: Core 0, sent 9359943, received 7091152, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 103 seconds: Core 1, sent 9362177, received 7143549, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 104 seconds: Core 0, sent 9455462, received 7186677, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 104 seconds: Core 1, sent 9457708, received 7239086, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 105 seconds: Core 0, sent 9551002, received 7282214, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 105 seconds: Core 1, sent 9553237, received 7334611, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 106 seconds: Core 0, sent 9646523, received 7377735, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 106 seconds: Core 1, sent 9648773, received 7430148, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 107 seconds: Core 0, sent 9742002, received 7473225, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 107 seconds: Core 1, sent 9744264, received 7525638, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 108 seconds: Core 0, sent 9837493, received 7568715, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 108 seconds: Core 1, sent 9839765, received 7621134, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 109 seconds: Core 0, sent 9932978, received 7664202, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 109 seconds: Core 1, sent 9935203, received 7716577, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 110 seconds: Core 0, sent 10028408, received 7759634, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 110 seconds: Core 1, sent 10030681, received 7812047, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 111 seconds: Core 0, sent 10123917, received 7855136, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 111 seconds: Core 1, sent 10126187, received 7907547, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 112 seconds: Core 0, sent 10219359, received 7950587, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 112 seconds: Core 1, sent 10221655, received 8003031, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+After 113 seconds: Core 0, sent 10314942, received 8046168, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 113 seconds: Core 1, sent 10317223, received 8098593, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 114 seconds: Core 0, sent 10410444, received 8141669, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 114 seconds: Core 1, sent 10412699, received 8194078, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+After 115 seconds: Core 0, sent 10505980, received 8237201, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 115 seconds: Core 1, sent 10508237, received 8289610, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 116 seconds: Core 0, sent 10601529, received 8332748, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 116 seconds: Core 1, sent 10603761, received 8385132, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 117 seconds: Core 0, sent 10696978, received 8428175, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 117 seconds: Core 1, sent 10699223, received 8480590, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 118 seconds: Core 0, sent 10792412, received 8523631, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 118 seconds: Core 1, sent 10794659, received 8576037, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+After 119 seconds: Core 0, sent 10887925, received 8619149, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 119 seconds: Core 1, sent 10890176, received 8671548, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+After 120 seconds: Core 0, sent 10983445, received 8714662, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 120 seconds: Core 1, sent 10985669, received 8767036, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+After 121 seconds: Core 0, sent 11078813, received 8810029, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 121 seconds: Core 1, sent 11081060, received 8862435, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 122 seconds: Core 0, sent 11174267, received 8905492, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 122 seconds: Core 1, sent 11176536, received 8957903, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 123 seconds: Core 0, sent 11269711, received 9000929, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 124 seconds: Core 1, sent 11271960, received 9053329, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 125 seconds: Core 0, sent 11365252, received 9096470, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 125 seconds: Core 1, sent 11367504, received 9148879, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 126 seconds: Core 0, sent 11460696, received 9191922, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 126 seconds: Core 1, sent 11462912, received 9244290, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 127 seconds: Core 0, sent 11556127, received 9287333, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 127 seconds: Core 1, sent 11558339, received 9339709, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+After 128 seconds: Core 0, sent 11651600, received 9382813, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 128 seconds: Core 1, sent 11653836, received 9435206, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 129 seconds: Core 0, sent 11747120, received 9478354, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 129 seconds: Core 1, sent 11749375, received 9530749, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+After 130 seconds: Core 0, sent 11842616, received 9573832, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 130 seconds: Core 1, sent 11844823, received 9626190, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+After 131 seconds: Core 0, sent 11938058, received 9669272, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 131 seconds: Core 1, sent 11940262, received 9721636, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+^[[AAfter 132 seconds: Core 0, sent 12033533, received 9764754, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 132 seconds: Core 1, sent 12035831, received 9817212, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+After 133 seconds: Core 0, sent 12129127, received 9860347, errors 0, bad crcs 122057, tx-rx 2269094, (txof=0, rxof=0)
+After 133 seconds: Core 1, sent 12131418, received 9912788, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+After 134 seconds: Core 0, sent 12224622, received 9955843, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 134 seconds: Core 1, sent 12226877, received 10008264, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+After 135 seconds: Core 0, sent 12320202, received 10051424, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 135 seconds: Core 1, sent 12322464, received 10103847, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 136 seconds: Core 0, sent 12415737, received 10146976, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 136 seconds: Core 1, sent 12418032, received 10199409, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 137 seconds: Core 0, sent 12511345, received 10242571, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 137 seconds: Core 1, sent 12513632, received 10295006, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 138 seconds: Core 0, sent 12606923, received 10338138, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 138 seconds: Core 1, sent 12609190, received 10390559, errors 0, bad crcs 678, tx-rx 2218948, (txof=0, rxof=0)
+###############################
+After 139 seconds: Core 0, sent 12702375, received 10433594, errors 0, bad crcs 122057, tx-rx 2269095, (txof=0, rxof=0)
+After 139 seconds: Core 1, sent 12704642, received 10486016, errors 0, bad crcs 678, tx-rx 2218947, (txof=0, rxof=0)
+###############################
+^C]0;zuhraa470@simech1: ~/casper/snap/test_firmware/tge_testzuhraa470@simech1:~/casper/snap/test_firmware/tge_test$ python sfp_test.py -b sfp2x_test.bof -n 2 rpirachel -P 1000 -T 1100[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kpython sfp_test.py -b sfp2x_test.bof -n 2 rpirachel -P 1000 -T 1100[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kpython sfp_test.py -b sfp2x_test.bof -n 2 rpirachel -P 1000 -T 1100[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K
+exit
+
+Script done on Tue 30 Jun 2015 03:02:31 PM PDT
